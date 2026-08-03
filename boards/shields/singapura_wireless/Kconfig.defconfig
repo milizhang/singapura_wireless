@@ -1,0 +1,6 @@
+if SHIELD_SINGAPURA_WIRELESS
+
+config ZMK_KEYBOARD_NAME
+    default "Singapura W"
+
+endif # SHIELD_SINGAPURA_WIRELESS
