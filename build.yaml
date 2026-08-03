@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+board: ["nrfmicro_13"]
+shield: ["singapura_wireless"]
+include:
+  - board: nrfmicro_13
+    shield: singapura_wireless
