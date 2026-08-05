@@ -18,9 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-board: ["nrfmicro_13"]
+board: ["nice_nano@2.0.0//zmk"]
 shield: ["singapura_wireless"]
 include:
-  - board: nrfmicro_13
+  - board: nice_nano@2.0.0//zmk
     shield: singapura_wireless
     snippet: studio-rpc-usb-uart
